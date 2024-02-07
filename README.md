@@ -1,6 +1,6 @@
 # ochi design React Project
 
-![ochi.design](ochi.design)
+![ochi.design](https://ochi.design/)
 
 ## Overview
 
