@@ -9,9 +9,10 @@ function LandingPage() {
             {["We Create", "Eye Opening", "Presentations"].map((item, index) => {
                 
                 return <div  key={item} className="masker">
-                    <div className='w-fit flex '>
-                        {index === 1 && (<div className='w-[8vw] h-[5.3vw] relative top-[1vw] bg-red-500 '></div>)}
-                <h1 className="uppercase text-[7vw] leading-[6.5vw] font-['Founders Grotesk X-Condensed'] font-bold">{item}</h1>
+                    <div className='w-fit flex  items-end overflow-hidden'>
+                        {index === 1 && (
+                        <div className='mr-[1vw] w-[8vw] rounded-md h-[4.3vw] -top-[1.2vw] relative bg-green-500 '></div>)}
+                <h1 className=" uppercase text-[7vw] leading-[6.5vw] font-['Founders Grotesk X-Condensed'] font-bold">{item}</h1>
             </div>
         </div>
             })}
